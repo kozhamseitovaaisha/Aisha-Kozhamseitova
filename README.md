@@ -2,8 +2,350 @@
 <html>
     <head>
         <title>DEMEU</title>
-        <script src="ab.js"></script>
-        <link rel="stylesheet" type="text/css" href="Bekzhan.css">
+        <style>
+            *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('bb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+.rr{
+    color: white;
+    background: lightsalmon;
+    display: block;
+    height: 64px;
+    font-family: lato;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+.rr:hover, .aas:hover{
+    background:coral;
+}
+#main-nav ul{
+    list-style: none;
+    display: flex;
+} 
+#main-nav li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.mainh, .ttr{
+    font-family:  cursive;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 75px;
+}
+.ttrr{
+    font-family:  cursive;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.cit{
+    font-family:  cursive;
+    text-align: right;
+    font-size: 20px;
+}
+.aq{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.aa{
+    font-family:  cursive;
+    text-align: center;
+    font-size: 20px;
+}
+.as{
+    display:  grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.ff{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr ;  
+}
+.foot{
+    display:  grid;
+    grid-template-columns: 1fr ;  
+    background-image: url(border.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.jpg{
+    height: 25px;
+    width: 25px;
+}
+.cntct{
+    margin-top: 20px;
+    text-align: center;
+      font-size: 25px;
+     font-family:  cursive; 
+}
+.aas{
+    background: lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.4s;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 10%;
+}
+
+ .tt{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+ .yyyy{
+     width:200px;     
+     margin-left: 130px;
+     margin-right: 130px;
+     background-color: white;
+     font-size: 23px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .bc{
+     color: black;
+     background-color: lightsalmon;
+ }
+ #uuu{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-left: 20px;
+     margin-right: 10px;
+ }
+ .tttr{
+     background-color: lightsalmon;
+     font-family:  cursive;
+     text-align: center;
+     font-size: 20px;
+     width: 70%;
+     margin-top: 30%;
+     margin-right: 15%;
+     margin-left: 15%;
+     border-radius: 5px;
+ }
+ .top{
+     background-color: lightsalmon;
+     width:20px;
+     height: 25px;
+     margin-left: 250px;
+ }
+ .topp{
+    background-color: lightsalmon;
+    width:20px;
+    height: 25px;
+    margin-left: 90%;
+ }
+ form{
+     display: grid;
+     grid-template-columns: 1fr;
+     height:60%;
+ }
+ label{
+     font-size: 23px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ input{
+     padding: 1%;
+     border-radius: 15px;
+     width:80%;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+ hr {
+    height: 2px;
+    color:lightsalmon;
+    background-color: lightsalmon;
+ }
+ 
+
+@media(max-width:1000px){
+    #main-nav ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cntct{
+        margin-top: 5px;
+    }
+    .tttr, .ttr{
+        font-size: 35px;
+    }
+    .aa, .cit, .yyyy{
+        font-size:15px;
+    }
+    .tt, .as{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    video{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #team{
+        margin-left: 30%;
+        margin-right: 30%;
+        width: 300px;
+        height: 300px;
+    }
+    .yyyy{
+        margin-left: 35%;
+        margin-right: 40%;
+    }
+    label{
+        font-size: 20px;
+    }
+    .tttr{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 30%;
+        margin-top: 15%;
+    }
+    form{
+        width: 80%;
+        margin-left: 15%;
+    }
+    .ttrr{
+        font-size: 20px;
+    }
+    
+}
+@media(max-width:600px){
+    label{
+        font-size: 20px;
+    }
+    .cntct{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .jpg{
+        height: 20px;
+        width: 20px;
+    }
+    .aas{
+        height: 25px;
+    }
+    #main-nav ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tttr, .ttr{
+        font-size: 25px;
+    }
+    .aa, .cit, .yyyy{
+        font-size:15px;
+    }
+    .tt, .as{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    video{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #team{
+        margin-left: 30%;
+        margin-right: 30%;
+        width: 300px;
+        height: 300px;
+    }
+    .yyyy{
+        margin-left: 35%;
+        margin-right: 40%;
+    }
+    .tttr{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 30%;
+        margin-top: 15%;
+    }
+    form{
+        width: 80%;
+        margin-left: 15%;
+    }
+    .ttrr{
+        font-size: 20px;
+    }
+}
+        </style>
+        <script>
+            function checkfirstsymbol(letters){
+                let numbers=[1,2,3,4,5,6,7,8,9,0];
+                for(let l=0;l<numbers.length;l++)    {
+                    if (letters[0]==numbers[l])        {
+                        return false;
+                    }
+                    else{
+                        return true;
+                    }
+                }
+            }
+            function send(){
+                let fname = document.getElementById("fname").value;
+                let lname = document.getElementById('lname').value;
+                let email = document.getElementById('email').value;
+                let rfname = document.getElementById('repeatfname').value;
+                if (fname.length<1){
+                    alert("Please fill First Name");
+                    return false;
+                }
+                else if(checkfirstsymbol(fname)==false){
+                    alert("You cannot use symbols!");
+                    return false;
+                }
+                else if (fname.length>32){
+                    alert('No more than 32 letters');
+                    return false;
+                }
+                else{
+                    if (fname!=rfname){            
+                        repeatfname.style.backgroundColor='yellow';
+                        return false;
+                    }
+                    else{   
+                        repeatfname.style.backgroundColor='white';
+                            if (lname.length<1){
+                                alert("Please fill Last Name");
+                                return false;
+                            }
+                            else if (lname.length>32){
+                                alert('No more than 32 letters in Last Name');
+                                return false;
+                            }
+                            else{
+                                if (email.length<1){
+                                    alert("Please fill Email");
+                                    return false;
+                                }
+                                else if (email.length>32){
+                                    alert('No more than 32 letters');
+                                    return false;
+                                }
+                                else{
+                                    return true;
+                                }
+                            }                
+                    }       
+                }    
+            }
+            </script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
